@@ -64,10 +64,8 @@ class DrumMachine extends React.Component {
         this.handleKeyPress = this.handleKeyPress.bind(this);
     }
     componentDidMount() {
-        // will click the button when the corresponding key pressed
         window.addEventListener('keypress', this.handleKeyPress);
     }
-    // handler for the click button on the DrumPad Component
     handleButtonClick(key, song) {
         return () => {
             document.getElementById(key).play();
