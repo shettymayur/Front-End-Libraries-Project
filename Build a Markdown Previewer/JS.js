@@ -56,6 +56,7 @@ marked.setOptions({
   smartLists: true,
   smartypants: false
 });
+
 let MarkdownOutput = React.createClass({
   render: function() {
     return (
