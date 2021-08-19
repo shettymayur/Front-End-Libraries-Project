@@ -1,0 +1,84 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 99%;
+  background-color: #bfe2b0;
+}
+
+.headingTextOne {
+  font-family: 'Chicle', cursive;
+}
+
+.numberText {
+  font-family: 'Audiowide', cursive;
+}
+
+.bottom-pad {
+  padding-bottom: 10px;
+}
+
+#calcBody {
+  background-color: #C0C0C0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 3px solid #625C3E;
+}
+
+#calcFeedbackOuter {
+  background-color: #CFD1FC; 
+  border: 3px solid #7F81AF;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+#calcEntry {
+  height: 30px;
+}
+
+#calcHistory {
+  height: 15px;
+}
+
+.calc-button {
+  width: 100%;
+  border-bottom: 4px solid #625C3E;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #FFFBEB;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+}
+
+.calc-button-row {
+/*   height: 60px; */
+  padding-top: 40px;
+  padding-left: 6px;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.calc-button-down {
+  border-bottom: none !important;
+}
+
+.calc-button:focus {
+  outline: none;
+}
+
+.calc-button-holder {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0px;
+  padding-top: 15px;
+}
+
+#zero {
+  width: 95%;
+}
